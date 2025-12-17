@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  font-family: sans-serif;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+header {
+  padding: 15px 40px;
+  background-color: rgba(128, 128, 128, 0.521);
+  border-radius: 30px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title p {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin-right: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 0 15px;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  color: #4a90e2;
+  background-color: #f0f7ff;
+  transition: 0.3s;
+}
+
+.foto_prifile {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+.main_line{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.main_line h2{
+    font-size: 50px;
+}
+
+.button_one {
+  background-color: #2a75ca;
+  border: none;
+  padding: 10px 40px;
+  font-size: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: rgb(50, 50, 200);
+}
+
+body h4{
+    font-size: 17px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+main{
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.task {
+    border: 1px solid #e7e7e7;
+    padding: 18px;
+    border-radius: 12px;
+    margin-top: 18px;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+    max-width: 400px;
+   }
+
+
+.task-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+
+.subject {
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    color: white;
+}
+
+#check{
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+}
+
+
+
+.math { background: #3d8bfd; 
+font-size: 15px;}
+.biology{ background-color: #5f6368;
+font-size: 15px;}
+.history { background: #ff7d6c; 
+font-size: 15px;}
+
+
+.status {
+    font-size: 14px;
+}
+
+
+.status.red { color: #e60023; }
+.status.green { color: #0aa545; }
+
+
+.task h2 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+
+.desc {
+    margin: 0;
+    color: #5f6368;
+}
+
+
+.deadline {
+    margin-top: 10px;
+    color: #7c7f83;
+    font-size: 14px;
+}

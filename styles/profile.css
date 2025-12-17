@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  font-family: sans-serif;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+header {
+  padding: 15px 40px;
+  background-color: rgba(128, 128, 128, 0.521);
+  border-radius: 30px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title p {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin-right: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 0 15px;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  color: #4a90e2;
+  background-color: #f0f7ff;
+  transition: 0.3s;
+}
+
+.foto_prifile {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+}
+.board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.board_title{
+    font-size: 20px;
+    margin-right: 700px;
+}
+
+.task {
+  border: 1px solid rgb(95, 95, 95);
+  width: 500px;
+  height: 170px;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  
+}
+
+.task-top_title {
+  font-size: 37px;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-family: Arial, sans-serif;
+}
+
+.task-top {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-top_blue {
+  background-color: #3498db;
+  color: white;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 25px;
+}
+.task_green {
+  background-color: #2ecc71;
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.task_yelow {
+  background-color: #f39c12;
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+}
+.task_red {
+  background-color: #e74c3c;
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+}

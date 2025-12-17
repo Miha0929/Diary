@@ -4,22 +4,17 @@
   box-sizing: border-box;
   font-family: "Arial", sans-serif;
 }
-:root{
-  --white-color:white;
-  --two-color:rgb(0, 255, 242);
-}
 
 body {
+  font-family: sans-serif;
   max-width: 1200px;
   margin: auto;
   margin-top: 50px;
-  background-color: rgba(0, 0, 0, 0.048);
 }
-
 
 header {
   padding: 15px 40px;
-   background-color: rgba(128, 128, 128, 0.521);
+  background-color: rgba(128, 128, 128, 0.521);
   border-radius: 30px;
 }
 
@@ -53,80 +48,63 @@ nav a:hover {
   transition: 0.3s;
 }
 
+body h1{
+  font-size: 32px;
+  font-weight: 700;
+  padding: 20px 40px;
+}
+
 .foto_prifile {
   width: 40px;
   height: 40px;
   margin-left: 20px;
 }
 
-main {
-  max-width: 1200px;
-  padding: 30px 20px;
+/* header {
+  font-size: 32px;
+  font-weight: 700;
+  padding: 20px 40px;
+} */
+
+input[type="radio"] {
+  display: none;
+}
+label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--text);
+  border-radius: 5px;
+  font-size: 30px;
+}
+.content {
+  display: none;
 }
 
-.main_title {
-  margin-bottom: 40px;
-  color: var(--two-color);
+#day1:checked + label,
+#day2:checked + label,
+#day3:checked + label,
+#day4:checked + label,
+#day5:checked + label {
+  background-color: #2d7dff;
+  color: white;
 }
 
-.main_title {
-  font-size: 18px;
-  color: black;
-  margin-bottom: 40px;
+#day1:checked ~ .c1,
+#day2:checked ~ .c2,
+#day3:checked ~ .c3,
+#day4:checked ~ .c4,
+#day5:checked ~ .c5 {
+  display: block;
 }
 
-.main_pages {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
+.content h2{
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
-.cards {
-  display: flex;
-  gap: 25px;
-  justify-content: flex-start;
-  justify-content: center;
-}
-
-.card {
-  width: 330px;
-  height: 150px;
-  background: #fff;
-  border-radius: 22px;
-  padding: 25px 20px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
-}
-
-.pages-box {
-  width: 60px;
-  height: 60px;
-  border-radius: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.pages-box img {
-  width: 100px;
-  height: 100px;
-}
-
-.card h2 {
-  font-size: 22px;
-  font-weight: 600;
-}
-
-.card p {
-  font-size: 16px;
-  color: #4d4d4d;
-  margin-top: 4px;
-}
-
-.table_h1 {
+.table_h2 {
   margin-top: 40px;
 }
 table {
@@ -157,11 +135,4 @@ tr:hover {
   background: #f9fafb;
   padding: 30px;
   border-radius: 20px;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
-  font-size: 20px;
 }
