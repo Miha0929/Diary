@@ -4,10 +4,6 @@
   box-sizing: border-box;
   font-family: "Arial", sans-serif;
 }
-:root{
-  --white-color:white;
-  --two-color:rgb(0, 255, 242);
-}
 
 body {
   max-width: 1200px;
